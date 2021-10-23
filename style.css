@@ -1,0 +1,77 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+nav{
+	background-color: black;
+	padding: 20px;
+	height: 40px;
+	overflow: hidden;
+	position: relative;
+}
+ul li{
+    float: left;
+	padding: 10px;
+	list-style-type: none;
+	text-decoration: none;
+	padding: 6px 15px
+	font-size: 35px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.first-section{
+	font-size: 35px;
+	padding: 50px;
+	height: 250px;
+	background-image: url(bed1.jpg);
+	background-position: center center;
+	background-size: covers;
+	position: relative;
+}	
+img{
+	border-radius: 50%;
+	display:flex ;
+}
+.div2{
+	width:auto ;
+	height:auto ;
+	float: left;
+	display: flex;
+	margin-right: 10px;
+}
+.footer{
+position: absolute;
+bottom: 0;
+width: 100;
+height: 50;
+background: black;
+position: fixed;
+color: white;
+}
+	
+
+
+table, tr, th, td{
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background: black;
+	position: fixed;
+	color: white;
+}
+
+
+
+
+
+
+
